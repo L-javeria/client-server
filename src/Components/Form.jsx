@@ -22,7 +22,7 @@ const Form = () => {
   const submission = (e) => {
     e.preventDefault();
 
-    if ((name && Country && phoneNumber)) {
+    if ((name && Country && phoneNumber) === null) {
       alert('Fill the form')
       console.log(location.pathname)
 
