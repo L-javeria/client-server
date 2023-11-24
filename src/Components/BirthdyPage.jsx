@@ -17,12 +17,14 @@ const BirthdyPage = () => {
             </div>
             <div className='m-5 p-10'>
             <div className='p-4'>
+                <p>1st:</p>
                 <audio controls>
                     <source src={birthdaySong} type="audio/mpeg" />
                     Your browser does not support the audio element.
                 </audio>
             </div>
             <div className='p-4'>
+                <p>2nd:</p>
                 <audio controls>
                     <source src={Song2} type="audio/mpeg" />
                     Your browser does not support the audio element.
